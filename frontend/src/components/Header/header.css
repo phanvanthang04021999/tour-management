@@ -16,7 +16,7 @@
     text-decoration: none;
     color: var(--heading-color);
     font-weight: 500;
-    font-size: 1.1rem;
+    font-size: 1.6rem;
 }
 
 .nav__item a:hover{
@@ -40,6 +40,6 @@
     position: sticky;
     top: 0;
     left: 0;
-    box-shadow: 3px 3px 8px -3px #ddd;
+    box-shadow: 5px 5px 10px -5px #ddd;
     z-index: 999;
 }

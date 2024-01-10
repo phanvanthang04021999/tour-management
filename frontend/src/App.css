@@ -52,9 +52,11 @@ ul {
   font-size: 1.1rem;
   text-decoration: none;
   color: #fff;
+  font-size: 1.6rem;
 }
 .primary__btn a:hover {
   color: inherit;
+  font-size: 1.6rem;
 }
 .secondary__btn {
   background: transparent !important;
@@ -65,7 +67,7 @@ ul {
 
 .secondary__btn a {
   text-decoration: none;
-  font-size: 1.1rem;
+  font-size: 1.6rem;
   color: var(--heading-color);
 }
 
