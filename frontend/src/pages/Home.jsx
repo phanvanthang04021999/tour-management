@@ -12,6 +12,9 @@ import Subtitle from "../shared/Subtitle";
 import SearchBar from "../shared/SearchBar";
 import ServicesList from "../services/ServicesList";
 import FeaturedToursList from "../components/Featured-tours/FeaturedToursList";
+import MasonryImagesGallery from "../components/Image-gallery/MasonryImagesGallery";
+import Testimonial from "../components/Testimonial/Testimonials";
+import Newsletter from "../shared/Newsletter";
 
 const Home = ()=>{
     return (
@@ -112,8 +115,8 @@ const Home = ()=>{
                 </Row>
             </Container>
         </section>
-             {/*---------------------------------------------*/}
-             <section>
+            {/*---------------------Gallery------------------------*/}
+            <section>
                 <Container>
                     <Row>
                         <Col lg="12">
@@ -121,11 +124,26 @@ const Home = ()=>{
                             <h2 className="gallery__title">Visit our customers tour gallery</h2>
                         </Col>
                         <Col lg="12">
-                            
+                            <MasonryImagesGallery/>
                         </Col>
                     </Row>
                 </Container>
-             </section>
+            </section>
+               {/*---------------------Testimonial------------------------*/}
+            <section>
+                <Container>
+                    <Row>
+                        <Col lg="12">
+                            <Subtitle subtitle={"Fan love"}/>
+                            <h2 className="testimonial__title">What our fans say about us</h2>
+                        </Col>
+                        <Col lg="12">
+                            <Testimonial/>
+                        </Col>
+                    </Row>
+                </Container>
+            </section>
+            <Newsletter/>
         </>
     )
 };
